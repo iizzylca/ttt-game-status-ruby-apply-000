@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def move?(board)
-  WIN_COMBINATIONS.detect? do |win_combination|
+  WIN_COMBINATIONS.detect do |win_combination|
     board[0] == board[1] && board[1] == board[2] && board[0] != " "
   end
 end
