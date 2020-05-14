@@ -22,3 +22,7 @@ def won?(board)
     board[location_1] == board[location_2] && board[location_2] == board[location_3] && board[location_1] != " "
   end
 end
+
+def full?(board)
+  
+end
