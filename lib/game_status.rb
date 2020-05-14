@@ -37,6 +37,6 @@ def over?(board)
   won?(board) && !draw?(board) || draw?(board)
 end
 
-def winner
-  
+def winner(board)
+
 end
