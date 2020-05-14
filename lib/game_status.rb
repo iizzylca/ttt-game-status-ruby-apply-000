@@ -44,7 +44,6 @@ def winner(board)
     board(win_location)
   else
     nil
-
   end
 end
 
