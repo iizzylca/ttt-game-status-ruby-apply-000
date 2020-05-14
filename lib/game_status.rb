@@ -39,6 +39,6 @@ end
 
 def winner(board)
   win_combination = won?(board)
-  won?(board) == "X" || "O"
+  win_location = win_combination
 
 end
