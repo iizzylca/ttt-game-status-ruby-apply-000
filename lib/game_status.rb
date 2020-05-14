@@ -44,6 +44,3 @@ def winner(board)
     board(win_location)
   end
 end
-
-
-end
