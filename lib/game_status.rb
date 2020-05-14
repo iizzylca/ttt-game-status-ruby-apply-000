@@ -24,5 +24,10 @@ def won?(board)
 end
 
 def full?(board)
-  
+  WIN_COMBINATIONS.select do |win_combination|
+    ocation_1 = win_combination[0]
+    location_2 = win_combination[1]
+    location_3 = win_combination[2]
+    board[location_1] == board[location_2] && board[location_2] == board[location_3] && board[location_1] != " "
+  end
 end
