@@ -28,3 +28,7 @@ def full?(board)
     position == " "
   end
 end
+
+def draw?(board)
+  full?(board) && won?(board)
+end
