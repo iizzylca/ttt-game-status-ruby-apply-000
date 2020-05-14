@@ -28,6 +28,6 @@ def full?(board)
     location_1 = win_combination[0]
     location_2 = win_combination[1]
     location_3 = win_combination[2]
-    board[location_1] == board[location_2] && board[location_2] == board[location_3] && board[0] != " "
+    board[location_1] == board[location_2] && board[location_2] == board[location_3] && board[location_1] = " "
   end
 end
